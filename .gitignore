@@ -1,0 +1,18 @@
+# data
+/data/raw/*
+/data/interim/*
+/data/processed/*
+!data/**/.gitkeep
+
+# notebooks checkpoints
+**/.ipynb_checkpoints
+
+# python
+__pycache__/
+*.pyc
+.venv/
+shc_thesis_venv/
+.env
+
+# OS/editor
+.DS_Store
