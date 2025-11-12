@@ -68,6 +68,23 @@ def print_available_columns(df: pd.DataFrame, n: int = 999) -> None:
     print(f"[debug] standardized columns ({len(cols)}): {cols}")
 
 
+TERM_DIGIT_TO_NAME = {1: "Spring", 5: "Summer", 8: "Fall"}
+TERM_DIGIT_TO_MONTH = {1: 1, 5: 6, 8: 8}
+
+def decode_psu_term(term_code: int | float | str):
+    import math, pandas as pd
+    if pd.isna(term_code): 
+        return None, None, None  # (label, year, pandas_timestamp)
+    n = int(term_code)
+    sem_digit = n % 10
+    base = n // 10
+    year = 2000 + (base - 200)
+    sem_name = TERM_DIGIT_TO_NAME.get(sem_digit, f"Term{sem_digit}")
+    month = TERM_DIGIT_TO_MONTH.get(sem_digit, 1)
+    ts = pd.Timestamp(year=year, month=month, day=1)
+    return f"{sem_name} {year}", year, ts
+
+
 # ---------------------------
 # Outcome utilities
 # ---------------------------
@@ -252,7 +269,8 @@ def build_attempt_features(df: pd.DataFrame) -> pd.DataFrame:
         feat[f"{cname}_total_attempts"] = pd.Series(total_attempts_list, index=df.index, dtype="Int64")
 
         # Human-readable outcome label
-        feat[f"{cname}_outcome"] = pd.Series(label_text, index=df.index, dtype="string")
+        feat[f"{cname}_outcome_label"] = pd.Series(label_text, index=df.index, dtype="string")
+
 
 
     # Rollups across the five ETM courses
@@ -360,7 +378,8 @@ def engineer_info_features(summary: pd.DataFrame) -> pd.DataFrame:
     status = base.get("me_bs_degree_status", pd.Series(index=base.index)).astype("string").str.upper().fillna("")
     positive = status.str.contains(r"\bGRAD", na=False) | status.str.contains(r"\bDEGREE\b", na=False)
     negative = status.str.contains(
-        r"\b(NO|NOT|DENIED|PEND|PENDING|SEEK|SEEKING|IN\s*PROGRESS|PLANN|PLAN|INTENT|ADMIT|ENROLL)\b", na=False
+    r"\b(?:NO|NOT|DENIED|PEND|PENDING|SEEK|SEEKING|IN\s*PROGRESS|PLANN|PLAN|INTENT|ADMIT|ENROLL)\b",
+    regex=True, na=False
     )
     base["graduated_me"] = (positive & ~negative).astype("Int64")
 

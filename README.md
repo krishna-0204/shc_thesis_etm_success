@@ -20,7 +20,7 @@ pip install -U pip
 pip install -r requirements.txt
 ```
 
-Place your workbook at: `data/raw/ETM_Study_Data_to_Researcher.xlsx`.
+Place your workbook at: `data/raw/Populated_ETM_Study_Data_to_Researcher.xlsx`.
 
 ---
 
@@ -29,10 +29,12 @@ Place your workbook at: `data/raw/ETM_Study_Data_to_Researcher.xlsx`.
 ```bash
 export PYTHONPATH=src
 python -m etm_preprocessing.cli build \
-  --excel data/raw/ETM_Study_Data_to_Researcher.xlsx \
+  --excel data/raw/Populated_ETM_Study_Data_to_Researcher.xlsx \
   --out   data/processed/clean_features.csv
 ```
 
+This command gives the clean features csv (both normal and long)
+Long is more useful for plotting. 
 The output CSV contains **only information-sheet based features** (see glossary below). Term-GPA melt/trajectory features will be added as a separate subcommand.
 
 ---
