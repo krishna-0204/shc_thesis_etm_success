@@ -1,105 +1,173 @@
-## Numeric effects (Cohen’s d)
+# Numeric effects (Cohen’s d)
 
-* **low_gpa_term_rate_3_0 ↓**: Graduates spent a smaller share of their semesters below a 3.0 GPA (fewer mediocre terms).
-* **_term_gpa3 ↓**: Graduates had fewer semesters with GPA < 3.0 in absolute count.
-* **low_gpa_term_rate_2_5 ↓**: Graduates spent a smaller share of semesters below 2.5 (fewer weak terms).
-* **_term_gpa25 ↓**: Graduates had fewer semesters with GPA < 2.5 in absolute count.
-* **dif_btw_max_and_min_term_gpa ↓**: Graduates’ term GPAs fluctuated less (more consistent performance).
-* **cgpa_at_etm_to_any_campus ↑**: Graduates entered ETM with a higher cumulative GPA.
-* **peak_minus_etm ↓**: Graduates’ peak CGPA was closer to their ETM CGPA (less decline before ETM).
-* **total_grade_forgiveness_credits_approved_before_etm_to_any_campus ↓**: Graduates relied less on grade-forgiveness credits before ETM.
-* **grade_forgiveness_used ↓**: Graduates were less likely to have used any grade forgiveness at all.
-* **highest_cgpa_during_credit_window ↑**: Graduates reached higher peak CGPAs within the credit window.
-* **_courses_taken_ge3rd_time ↓**: Graduates repeated courses three or more times less often.
-* **cgpa_gap ↑**: Graduates’ graduating CGPA exceeded their ETM CGPA by more (more improvement after ETM).
-* **multi_repeat_flag ↓**: Graduates were less likely to have multiple repeated courses.
+* **low_gpa_term_rate_3_0 ↓**: Graduates spent a smaller share of semesters below 3.0 (fewer mediocre terms).
+* **_term_gpa3 ↓**: Graduates had fewer sub-3.0 semesters in raw count.
+* **low_gpa_term_rate_2_5 ↓**: Graduates spent a smaller share of semesters under 2.5 (fewer weak terms).
+* **_term_gpa25 ↓**: Graduates had fewer sub-2.5 semesters in raw count.
+* **dif_btw_max_and_min_term_gpa ↓**: Graduates’ term GPAs swung less (steadier performance).
+* **cgpa_at_etm_to_any_campus ↑**: Graduates entered ETM with higher cumulative GPAs.
+* **peak_minus_etm ↓**: Graduates’ peak CGPA was closer to their ETM CGPA (less drop before ETM).
+* **grade-forgiveness credits ↓**: Graduates used fewer grade-forgiveness credits before ETM.
+* **grade_forgiveness_used ↓**: Graduates were less likely to use any grade forgiveness.
+* **highest_cgpa_during_credit_window ↑**: Graduates hit higher peak CGPAs early on.
+* **_courses_taken_ge3rd_time ↓**: Graduates rarely pushed courses to a 3rd+ attempt.
+* **cgpa_gap ↑**: Graduates improved more from ETM CGPA to graduating CGPA.
+* **multi_repeat_flag ↓**: Graduates were less likely to have multiple repeats on record.
 * **warnings_per_term ↓**: Graduates accumulated fewer academic warnings per term.
-* **chem_110_attempts_to_abc ↓**: Graduates needed fewer attempts to first pass CHEM 110 with A/B/C.
-* **phys_211_attempts_to_abc ↓**: Graduates needed fewer attempts to first pass PHYS 211 with A/B/C.
-* **etm_total_attempts_to_abc ↓**: Across ETM courses, graduates needed fewer attempts to first pass with A/B/C.
-* **math_141_attempts_to_abc ↓**: Graduates needed fewer attempts to first pass MATH 141 with A/B/C.
-* **chem_110_total_attempts ↓**: Graduates attempted CHEM 110 fewer total times.
-* **phys_211_total_attempts ↓**: Graduates attempted PHYS 211 fewer total times.
-* **enrolled_terms__su_included ↑**: Graduates were enrolled in more total terms (overall persistence/time in system).
-* **math_141_total_attempts ↓**: Graduates had fewer total MATH 141 attempts.
-* **math_140_attempts_to_abc ↓**: Graduates needed fewer attempts to first pass MATH 140 with A/B/C.
-* **summer_term_ratio ↓**: Graduates took a smaller fraction of their terms in summer.
-* **math_140_total_attempts ↓**: Graduates had fewer total MATH 140 attempts.
-* **2nd_fall ↑**: In the second fall slot, graduates’ GPA was a bit higher on average.
-* **n_regular_terms ↑**: Graduates completed more regular (Fall/Spring) terms.
+* **chem_110_attempts_to_abc ↓**: Graduates needed fewer tries to first pass CHEM 110.
+* **phys_211_attempts_to_abc ↓**: Fewer tries to first pass PHYS 211 among graduates.
+* **etm_total_attempts_to_abc ↓**: Across ETM courses, graduates reached first passes in fewer total attempts.
+* **math_141_attempts_to_abc ↓**: Fewer tries to first pass MATH 141 among graduates.
+* **chem_110_total_attempts ↓**: Graduates attempted CHEM 110 fewer times overall.
+* **phys_211_total_attempts ↓**: Fewer total PHYS 211 attempts among graduates.
+* **enrolled_terms__su_included ↑**: Graduates persisted across more total terms.
+* **math_141_total_attempts ↓**: Fewer total MATH 141 attempts among graduates.
+* **math_140_attempts_to_abc ↓**: Fewer tries to first pass MATH 140 among graduates.
+* **summer_term_ratio ↓**: Graduates took a smaller fraction of summer terms.
+* **math_140_total_attempts ↓**: Fewer total MATH 140 attempts among graduates.
+* **2nd_fall ↑**: Second-fall GPAs trend a bit higher among graduates.
+* **n_regular_terms ↑**: Graduates completed more fall/spring terms.
 * **n_summer_terms ↓**: Graduates completed fewer summer terms.
-* **etm_never_passed_count ↑**: Graduates show slightly more courses flagged “never passed” in this derived count (small effect; likely a data/definition quirk).
-* **phys_211_ever_passed ↓**: Graduates are slightly less often marked “ever passed PHYS 211” by this flag (very small effect; suggests coding/check needed).
-* **chem_110_ever_passed ↓**: Same idea for CHEM 110 (tiny, likely coding artifact).
-* **1st_fall ↓**: In the first fall slot, graduates’ GPA is slightly lower on average (small/possibly cohort effect).
-* **edsgn_100_total_attempts ↑**: Graduates logged marginally more total attempts in EDSGN 100 (tiny effect).
-* **math_140_ever_passed ↓**: Graduates are slightly less often marked “ever passed MATH 140” by this flag (tiny; likely coding).
-* **gpa_trend_slope ↑**: Graduates’ GPAs trended upward more over time (improving trajectory).
-* **math_141_ever_passed ↓**: Same pattern for MATH 141 (tiny; likely coding).
-* **edsgn_100_ever_passed ↑**: Graduates are slightly more often marked “ever passed EDSGN 100.”
-* **chem_110_pass_by_first_attempt ↑**: Graduates more often passed CHEM 110 on the first try.
-* **first_two_regular_mean_gpa ↓**: Graduates have slightly lower average across first two regular terms in this cut (tiny; counter-intuitive—likely binning/coding).
-* **1st_spring ↓**: First spring slot GPA is a bit lower among graduates (tiny; cohort/timing effect possible).
-* **std_term_gpa ↓**: Graduates had more stable term-to-term GPAs (less volatility).
-* **edsgn_100_attempts_to_abc ↑**: Graduates took marginally more attempts before first A/B/C in EDSGN 100 (tiny and mixed signal).
-* **low_gpa_terms_2_5 ↑**: Graduates have a slightly higher raw count of <2.5 terms here (tiny; contradicts rate signals—denominator effects).
-* **etm_first_attempt_pass_count ↑**: Graduates passed more ETM courses on the first attempt (aggregate count).
-* **edsgn_100_pass_by_first_attempt ↑**: Graduates more often passed EDSGN 100 on the first try.
-* **min_term_gpa ↑**: Graduates’ worst term was slightly better (higher minimum GPA).
-* **phys_211_pass_by_first_attempt ↑**: Graduates more often passed PHYS 211 on the first try.
-* **4th_fall ↑**: In the fourth fall slot, graduates’ GPAs were slightly higher.
-* **first_term_gpa ↓**: Graduates’ very first recorded term GPA is a touch lower (tiny; cohort/timing effect possible).
-* **math_141_pass_by_first_attempt ↑**: Graduates more often passed MATH 141 on the first try.
-* **low_gpa_terms_3_0 ↓**: Graduates have a slightly lower raw count of <3.0 terms (tiny).
-* **last_term_gpa ↑**: Graduates finished with slightly higher last-term GPA.
-* **4th_spring ↑**: In the fourth spring slot, graduates’ GPAs were slightly higher.
-* **3rd_fall ↑**: In the third fall slot, graduates’ GPAs were slightly higher.
-* **median_term_gpa ↓**: Graduates’ median term GPA is fractionally lower (tiny; likely noise).
-* **1st_term ↓**: Graduates’ first term code is slightly “earlier” on average (cohort timing difference).
-* **terms_with_gpa ↑**: Graduates have GPAs recorded in more terms (more continuous enrollment).
-* **mean_term_gpa ↑**: Graduates’ average term GPA is slightly higher overall.
-* **math_140_pass_by_first_attempt ↓**: Graduates are marginally less often flagged as passing MATH 140 on first try (tiny; coding check suggested).
-* **3rd_spring ↑**: In the third spring slot, graduates’ GPAs were slightly higher.
+* **etm_never_passed_count ↑**: Slight uptick in “never passed” count among graduates (tiny; likely a labeling quirk—flag for review).
+* **phys_211_ever_passed ↓**: Slightly less often flagged “ever passed PHYS 211” among graduates (very small; likely coding artifact).
+* **chem_110_ever_passed ↓**: Same oddity for CHEM 110 (very small; likely coding artifact).
+* **1st_fall ↓**: First-fall GPA is marginally lower among graduates (tiny; cohort/timing effect possible).
+* **edsgn_100_total_attempts ↑**: Slightly more total EDSGN 100 attempts among graduates (tiny; mixed with other positive EDSGN signals).
+* **math_140_ever_passed ↓**: Slightly less often flagged “ever passed MATH 140” among graduates (tiny; check coding).
+* **gpa_trend_slope ↑**: Graduates’ GPAs improved more over time (positive slope).
+* **math_141_ever_passed ↓**: Same tiny “ever passed” oddity for MATH 141 (coding check).
+* **edsgn_100_ever_passed ↑**: Graduates more often ultimately passed EDSGN 100.
+* **chem_110_pass_by_first_attempt ↑**: First-try pass in CHEM 110 is more common among graduates.
+* **first_two_regular_mean_gpa ↓**: Very small lower early mean among graduates (counter-intuitive; watch binning/censoring).
+* **1st_spring ↓**: First-spring GPA a hair lower among graduates (tiny; cohort effect possible).
+* **std_term_gpa ↓**: Graduates’ term GPAs were less volatile.
+* **edsgn_100_attempts_to_abc ↑**: Slightly more tries before first A/B/C in EDSGN 100 (tiny; mixed with stronger “pass on first try” positives elsewhere).
+* **low_gpa_terms_2_5 ↑**: Slightly more raw <2.5 terms (tiny; denominator effects conflict with the rate version).
+* **etm_first_attempt_pass_count ↑**: Graduates passed more ETM courses on the first try (aggregate).
+* **edsgn_100_pass_by_first_attempt ↑**: First-try pass in EDSGN 100 is more common among graduates.
+* **min_term_gpa ↑**: Graduates’ worst term was a bit better.
+* **phys_211_pass_by_first_attempt ↑**: First-try pass in PHYS 211 is more common among graduates.
+* **4th_fall ↑**: Fourth-fall GPAs trend slightly higher among graduates.
+* **first_term_gpa ↓**: Very first term GPA is marginally lower among graduates (tiny; timing/cohort).
+* **math_141_pass_by_first_attempt ↑**: First-try pass in MATH 141 is more common among graduates.
+* **low_gpa_terms_3_0 ↓**: Slightly fewer raw sub-3.0 terms among graduates.
+* **last_term_gpa ↑**: Graduates finish with slightly higher last-term GPAs.
+* **4th_spring ↑**: Fourth-spring GPAs trend slightly higher among graduates.
+* **3rd_fall ↑**: Third-fall GPAs trend slightly higher among graduates.
+* **median_term_gpa ↓**: Median term GPA a touch lower among graduates (tiny; noise).
+* **1st_term ↓**: First term code is a bit earlier among graduates (cohort timing).
+* **terms_with_gpa ↑**: More terms with recorded GPAs for graduates (more continuous enrollment).
+* **mean_term_gpa ↑**: Average term GPA is slightly higher among graduates.
+* **math_140_pass_by_first_attempt ↓**: Slightly less often flagged first-try pass in MATH 140 among graduates (tiny; coding check).
+* **3rd_spring ↑**: Third-spring GPAs trend slightly higher among graduates.
 
-## Categorical effects (Risk Ratios)
+# Categorical effects (Risk Ratios)
 
-* **credit_window = 40–59 (RR>1)**: Students whose ETM metrics were computed over 40–59 credits graduated more often than others.
-* **credit_window = 29–55 (RR<1)**: Students in this overlapping window graduated less often (bins likely need to be disjoint).
-* **academic_suspenion__itwo = No (RR≫1)**: Not being on academic suspension is strongly associated with graduating (wide CI due to rare “Yes” cases).
-* **math_140 grade = D (RR<1)**: Getting a D in first Fall/Spring MATH 140 is linked to lower graduation odds.
-* **chem_110 grade = D (RR<1)**: Getting a D in first Fall/Spring CHEM 110 is linked to lower graduation odds.
-* **ALEKS 30–45 (RR<1)**: Lower initial ALEKS math placement correlates with lower graduation odds.
-* **1st_math_course_campus = AB (RR<1)**: Starting math at campus AB correlates with lower graduation odds (relative to others).
-* **with_math_ap = No (RR<1)**: No math AP credit is linked to lower graduation odds.
-* **with_math_ap = Yes (RR>1)**: Having math AP credit is linked to higher graduation odds.
-* **1st_math_course_campus = BK (RR<1)**: Starting math at campus BK correlates with lower graduation odds.
-* **1st_math_course_campus = UP (RR>1)**: Starting math at University Park correlates with higher graduation odds.
-* **math_140 grade = A (RR>1)**: An A in first Fall/Spring MATH 140 is linked to higher graduation odds.
-* **math_140 grade = C (RR<1)**: A C in first Fall/Spring MATH 140 is linked to lower graduation odds.
-* **chem_110 grade = A (RR>1)**: An A in first Fall/Spring CHEM 110 is linked to higher graduation odds.
-* **math_140 grade = SAT (RR<1)**: “SAT” code (satisfactory/transfer/placement) is linked to lower graduation odds in this dataset.
-* **chem_110 grade = LD (RR<1)**: Late Drop in CHEM 110 is linked to lower graduation odds (coding in your list shows RR<1 for LD).
-* **1st_math_course = MATH 26 (RR<1)**: Starting in MATH 26 correlates with lower graduation odds.
-* **chem_110 grade = B (RR>1)**: A B in CHEM 110 is linked to higher graduation odds.
-* **ALEKS 61–75 (RR<1)**: Mid-range ALEKS placement (61–75) is linked to slightly lower odds than peers.
-* **phys_211 grade = C+ (RR<1)**: A C+ in PHYS 211 is linked to lower graduation odds.
-* **chem_110 grade = B− (RR<1)**: A B− in CHEM 110 is linked to lower graduation odds than peers.
-* **1st_math_course = MATH 22 (RR<1)**: Starting in MATH 22 correlates with lower graduation odds.
-* **chem_110 grade = C (RR<1)**: A C in CHEM 110 is linked to lower graduation odds.
-* **ALEKS 46–60 (RR<1)**: Placement 46–60 correlates with lower graduation odds than peers.
-* **first_term_label = Summer 2017 (RR<1)**: Starting in Summer 2017 is linked to lower graduation odds (cohort effect).
-* **edsgn_100 grade = B− (RR<1)**: A 'B−' in EDSGN 100 is linked to lower graduation odds (small n; cautious).
-* **1st_math_course = MATH 141H (RR>1)**: Starting in honors calculus correlates with higher graduation odds.
-* **first_term_label = Spring 2021 (RR>1)**: Starting in Spring 2021 correlates with higher graduation odds (cohort effect).
-* **ALEKS 76–82 (RR>1)**: Upper-mid ALEKS placement correlates with higher graduation odds.
-* **chem_110 grade = Not Enrolled (RR≈1−)**: Not taking CHEM 110 in that first term is slightly linked to lower odds.
-* **math_141 grade = B− (RR≈1−)**: A B− in MATH 141 leans lower odds (borderline CI).
-* **1st_math_course_campus = BW (RR≈1−)**: Starting math at BW leans lower odds (borderline).
-* **phys_211 grade = B+ (RR>1)**: A B+ in PHYS 211 is linked to higher graduation odds.
-* **1st_math_course = MATH 230 (RR>1)**: Starting in vector calculus correlates with higher graduation odds (small n; exploratory).
-* **edsgn_100 grade = B (RR≈1−)**: A B in EDSGN 100 trends to lower odds (borderline; small n).
-* **ALEKS 90–100 (RR>1)**: Top ALEKS placement correlates with slightly higher graduation odds.
-* **math_141 grade = B (RR>1)**: A B in MATH 141 is linked to higher graduation odds.
-* **1st_math_course_campus = LV (RR>1)**: Starting math at LV correlates with higher graduation odds.
-* **math_140 grade = LD (RR>1)**: Late Drop in MATH 140 shows slightly higher odds here (idiosyncratic to this data; treat cautiously).
-* **phys_211 grade = A (RR>1)**: An A in PHYS 211 is linked to higher graduation odds.
+* **credit_window 40–59 (↑)**: Computing ETM metrics over 40–59 credits aligns with higher graduation odds.
+* **credit_window 29–55 (↓)**: This overlapping band aligns with lower odds (bins should be disjointed later).
+* **academic_suspension = No (↑)**: Not being suspended is strongly tied to graduating (rare “Yes” → wide CI).
+* **MATH 140 early grade = D (↓)**: Early D in MATH 140 hurts graduation odds.
+* **CHEM 110 early grade = D (↓)**: Early D in CHEM 110 hurts odds.
+* **ALEKS 30–45 (↓)**: Low ALEKS placement corresponds to lower odds.
+* **1st math campus = AB (↓)**: Starting math at AB campus aligns with lower odds vs peers.
+* **With math AP = No (↓)**: Lacking math AP credit corresponds to lower odds.
+* **With math AP = Yes (↑)**: Having math AP credit corresponds to higher odds.
+* **1st math campus = BK (↓)**: Starting math at BK campus aligns with lower odds.
+* **1st math campus = UP (↑)**: Starting math at University Park aligns with higher odds.
+* **MATH 140 early grade = A (↑)**: Early A in MATH 140 is favorable.
+* **MATH 140 early grade = C (↓)**: Early C in MATH 140 is unfavorable.
+* **CHEM 110 early grade = A (↑)**: Early A in CHEM 110 is favorable.
+* **MATH 140 early grade = SAT (↓)**: “SAT” (placement/transfer) here tracks to lower odds in this data.
+* **CHEM 110 early grade = LD (↓)**: Late Drop in CHEM 110 tracks to lower odds.
+* **1st math course = MATH 26 (↓)**: Starting in MATH 26 aligns with lower odds.
+* **CHEM 110 early grade = B (↑)**: Early B in CHEM 110 is favorable.
+* **ALEKS 61–75 (↓)**: Mid ALEKS tier is slightly unfavorable vs peers.
+* **PHYS 211 early grade = C+ (↓)**: Early C+ in PHYS 211 is unfavorable.
+* **CHEM 110 early grade = B− (↓)**: Early B− in CHEM 110 is somewhat unfavorable.
+* **1st math course = MATH 22 (↓)**: Starting in MATH 22 aligns with lower odds.
+* **CHEM 110 early grade = C (↓)**: Early C in CHEM 110 is unfavorable.
+* **ALEKS 46–60 (↓)**: Lower-mid ALEKS tier is unfavorable.
+* **First term = Summer 2017 (↓)**: This start cohort tracks to lower odds (cohort effect).
+* **EDSGN 100 early grade = B− (↓)**: Early B− in EDSGN 100 leans unfavorable (small n).
+* **1st math course = MATH 141H (↑)**: Starting in honors calculus aligns with higher odds.
+* **First term = Spring 2021 (↑)**: This start cohort tracks to higher odds (cohort effect).
+* **ALEKS 76–82 (↑)**: Upper-mid ALEKS tier is favorable.
+* **CHEM 110 early = Not Enrolled (↓)**: Skipping CHEM 110 in that first window leans unfavorable.
+* **MATH 141 early grade = B− (≈↓)**: B− leans lower odds (borderline).
+* **1st math campus = BW (≈↓)**: BW start leans lower odds (borderline).
+* **PHYS 211 early grade = B+ (↑)**: Early B+ in PHYS 211 is favorable.
+* **1st math course = MATH 230 (↑)**: Starting in vector calc aligns with higher odds (small n).
+* **EDSGN 100 early grade = B (≈↓)**: B trends lower (borderline; small n).
+* **ALEKS 90–100 (↑)**: Top ALEKS tier is favorable (slightly).
+* **MATH 141 early grade = B (↑)**: Early B in MATH 141 is favorable.
+* **1st math campus = LV (↑)**: Starting math at LV aligns with higher odds.
+* **MATH 140 early grade = LD (↑)**: Late Drop in MATH 140 shows slightly higher odds here (idiosyncratic; interpret cautiously).
+* **PHYS 211 early grade = A (↑)**: Early A in PHYS 211 is favorable.
+* **ALEKS 83–89 (↑)**: High ALEKS tier is favorable.
+* **PHYS 211 early grade = A− (↑)**: Early A− in PHYS 211 is favorable.
+* **1st math campus = NK (↑)**: NK start aligns with higher odds (small n).
+* **CHEM 110 early grade = B+ (↑)**: Early B+ in CHEM 110 is slightly favorable.
+* **1st math campus = WB (↑)**: WB start aligns with higher odds (small n).
+* **PHYS 211 early grade = B− (≈↓)**: B− leans lower (borderline; small n).
+* **1st math campus = HB (≈↓)**: HB start leans lower (borderline).
+* **CHEM 110 early grade = C+ (≈↓)**: C+ leans lower (borderline).
+* **1st math course = MATH 231 (≈↓)**: Starting in MATH 231 leans lower (borderline; small n).
+* **1st math campus = HN (↑)**: HN start aligns with higher odds (small n).
+* **CHEM 110 early grade = SAT (≈↓)**: SAT code leans lower (borderline).
+* **PHYS 211 early = Not Enrolled (≈↓)**: Not enrolled leans lower odds (borderline).
+* **MATH 141 early grade = LD (↑)**: LD in MATH 141 shows slightly higher odds (borderline; unusual—treat cautiously).
+* **1st math course = MATH 140B (≈↓)**: 140B start leans lower (small n).
+* **CHEM 110 early grade = A− (≈=)**: A− looks neutral to slightly lower (borderline).
+* **1st math course = MATH 251 (≈↑)**: 251 start looks slightly favorable.
+* **EDSGN 100 early grade = B+ (≈↑)**: B+ is mildly favorable (borderline).
+* **First term = Summer 2021 (≈↓)**: This cohort leans lower (borderline).
+* **MATH 140 early grade = A− (≈↑)**: A− is mildly favorable.
+* **MATH 140 early grade = B (≈↓)**: B trends slightly lower.
+
+# Bucketed separations (grad-rate spread across bins)
+
+* **CHEM 110 total attempts**: More attempts → clearly worse graduation rates; strong separator.
+* **Share of <3.0 terms**: Higher share of sub-3.0 terms → worse outcomes; strong separator.
+* **PHYS 211 total attempts**: More attempts → worse outcomes; strong separator.
+* **Count of <3.0 terms**: More sub-3.0 terms → worse outcomes; strong separator.
+* **ETM CGPA**: Higher ETM CGPA → higher grad rates; robust separation.
+* **Peak CGPA in window**: Higher peak early CGPA → higher grad rates.
+* **Term-GPA swing (max–min)**: Larger swings → worse grad rates; stability helps.
+* **ETM total attempts to first passes**: More total attempts to first A/B/C → worse outcomes.
+* **Peak−ETM gap**: Bigger drop from peak to ETM → worse outcomes.
+* **MATH 141 total attempts**: More attempts → worse outcomes (milder but present).
+* **MATH 140 total attempts**: More attempts → worse outcomes (milder but present).
+* **EDSGN 100 total attempts**: Slightly higher attempts relate to slightly better rates here (weak, but separates).
+* **Total enrolled terms**: Moderate separation; more enrollment time modestly helps.
+* **Std dev of term GPA**: More volatility → slightly worse outcomes.
+* **First two regular terms mean GPA**: Higher early mean → modestly better outcomes.
+* **2nd-spring GPA**: Higher 2nd-spring → modestly better outcomes.
+* **1st-spring GPA**: Higher 1st-spring → modestly better outcomes.
+* **First-term GPA**: Higher first-term → modestly better outcomes.
+* **1st-fall GPA**: Higher first fall → modestly better outcomes.
+* **Terms with GPA**: More recorded terms → slightly better outcomes (persistence).
+* **Summer term ratio**: More summers → slightly worse outcomes.
+* **Minimum term GPA**: Higher floor → slightly better outcomes.
+* **CGPA gap (grad − ETM)**: Bigger improvement → slightly better outcomes (nearly ceiling).
+* **2nd-fall GPA**: Higher 2nd-fall → modestly better outcomes.
+* **4th-fall GPA**: Higher 4th-fall → modestly better outcomes.
+* **ETM never-passed count**: More “never passed” → slightly worse rates (small separation).
+* **4th-spring GPA**: Higher 4th-spring → modestly better outcomes.
+* **3rd-spring GPA**: Higher 3rd-spring → modestly better outcomes.
+* **# summer terms**: More summers → slightly worse outcomes.
+* **3rd-fall GPA**: Higher 3rd-fall → modestly better outcomes.
+* **# regular terms**: More fall/spring terms → slightly better outcomes.
+* **1st term code**: Later/earlier cohorts show small differences (cohort timing).
+* **Last-term GPA**: Higher finishing GPA → slightly better outcomes.
+* **ETM first-attempt pass count**: Passing more ETM courses on first try → slightly better outcomes.
+* **Mean term GPA**: Higher mean → slightly better outcomes.
+* **GPA trend slope**: Upward trend → slightly better outcomes.
+* **Count of <3.0 terms**: More sub-3.0 terms → slightly worse outcomes (small separation).
+* **Median term GPA**: Higher median → tiny improvement.
+* **Max term GPA**: Max alone barely separates outcomes.
+* **# courses taken ≥3rd time**: This binning showed no real separation (flat).
+
+# Early GPA ladder
+
+* **First two regular terms**: Early GPAs do differentiate, but the ladder is not strictly monotone here (likely cohort/noise); broadly, stronger early terms help.
+
