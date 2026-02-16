@@ -1,0 +1,240 @@
+feature,level,n,rate_y1,overall_rate_y1,lift_vs_overall,cramers_v,chi2,p_value,n_levels_used
+1st_aleks_math_score_grouping,83-89,308,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,90-100,269,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,76-82,214,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,61-75,110,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,46-60,42,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,missing,6,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,30-45,5,1.0,1.0,1.0,0.0,,,8
+1st_aleks_math_score_grouping,N/A (101),2,1.0,1.0,1.0,0.0,,,8
+1st_math_course,MATH 140,454,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 141,165,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 140E,89,1.0,1.0,1.0,0.0,,,9
+1st_math_course,other,81,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 251,73,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 10,35,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 41,24,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 220,21,1.0,1.0,1.0,0.0,,,9
+1st_math_course,MATH 26,14,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,UP,677,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,other,84,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,HB,52,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,AB,31,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,ER,27,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,AL,26,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,LV,23,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,BK,20,1.0,1.0,1.0,0.0,,,9
+1st_math_course_campus,BW,16,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,A,251,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,B,198,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,Not Enrolled,186,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,A-,80,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,B+,68,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,C,64,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,B-,42,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,C+,36,1.0,1.0,1.0,0.0,,,9
+chem_110__grade_code__1st_fa_or_sp,other,31,1.0,1.0,1.0,0.0,,,9
+chem_110_attempts_to_abc,1.0,836,1.0,1.0,1.0,0.0,,,3
+chem_110_attempts_to_abc,missing,105,1.0,1.0,1.0,0.0,,,3
+chem_110_attempts_to_abc,2.0,15,1.0,1.0,1.0,0.0,,,3
+chem_110_ever_passed,1,851,1.0,1.0,1.0,0.0,,,2
+chem_110_ever_passed,0,105,1.0,1.0,1.0,0.0,,,2
+chem_110_outcome,Pass on 1st attempt,836,1.0,1.0,1.0,0.0,,,4
+chem_110_outcome,Never enrolled,105,1.0,1.0,1.0,0.0,,,4
+chem_110_outcome,Pass on 2nd attempt,13,1.0,1.0,1.0,0.0,,,4
+chem_110_outcome,No pass after 1 attempt,2,1.0,1.0,1.0,0.0,,,4
+chem_110_pass_by_first_attempt,1,836,1.0,1.0,1.0,0.0,,,2
+chem_110_pass_by_first_attempt,0,120,1.0,1.0,1.0,0.0,,,2
+chem_110_total_attempts,1,836,1.0,1.0,1.0,0.0,,,3
+chem_110_total_attempts,0,105,1.0,1.0,1.0,0.0,,,3
+chem_110_total_attempts,2,15,1.0,1.0,1.0,0.0,,,3
+credit_window_label,40-59,794,1.0,1.0,1.0,0.0,,,2
+credit_window_label,29-55,162,1.0,1.0,1.0,0.0,,,2
+edsgn_100__grade_code__1st_fa_or_sp,Not Enrolled,433,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,A,377,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,A-,84,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,B+,31,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,B,12,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,C+,6,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,B-,5,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,other,5,1.0,1.0,1.0,0.0,,,9
+edsgn_100__grade_code__1st_fa_or_sp,C,3,1.0,1.0,1.0,0.0,,,9
+edsgn_100_attempts_to_abc,1.0,932,1.0,1.0,1.0,0.0,,,4
+edsgn_100_attempts_to_abc,missing,19,1.0,1.0,1.0,0.0,,,4
+edsgn_100_attempts_to_abc,2.0,4,1.0,1.0,1.0,0.0,,,4
+edsgn_100_attempts_to_abc,3.0,1,1.0,1.0,1.0,0.0,,,4
+edsgn_100_ever_passed,1,937,1.0,1.0,1.0,0.0,,,2
+edsgn_100_ever_passed,0,19,1.0,1.0,1.0,0.0,,,2
+edsgn_100_outcome,Pass on 1st attempt,932,1.0,1.0,1.0,0.0,,,5
+edsgn_100_outcome,Never enrolled,19,1.0,1.0,1.0,0.0,,,5
+edsgn_100_outcome,Pass on 2nd attempt,3,1.0,1.0,1.0,0.0,,,5
+edsgn_100_outcome,No pass after 1 attempt,1,1.0,1.0,1.0,0.0,,,5
+edsgn_100_outcome,Pass on 3rd attempt,1,1.0,1.0,1.0,0.0,,,5
+edsgn_100_pass_by_first_attempt,1,932,1.0,1.0,1.0,0.0,,,2
+edsgn_100_pass_by_first_attempt,0,24,1.0,1.0,1.0,0.0,,,2
+edsgn_100_total_attempts,1,932,1.0,1.0,1.0,0.0,,,4
+edsgn_100_total_attempts,0,19,1.0,1.0,1.0,0.0,,,4
+edsgn_100_total_attempts,2,4,1.0,1.0,1.0,0.0,,,4
+edsgn_100_total_attempts,3,1,1.0,1.0,1.0,0.0,,,4
+etm_first_attempt_pass_count,5,460,1.0,1.0,1.0,0.0,,,6
+etm_first_attempt_pass_count,4,235,1.0,1.0,1.0,0.0,,,6
+etm_first_attempt_pass_count,3,161,1.0,1.0,1.0,0.0,,,6
+etm_first_attempt_pass_count,2,66,1.0,1.0,1.0,0.0,,,6
+etm_first_attempt_pass_count,1,31,1.0,1.0,1.0,0.0,,,6
+etm_first_attempt_pass_count,0,3,1.0,1.0,1.0,0.0,,,6
+etm_never_passed_count,0,540,1.0,1.0,1.0,0.0,,,6
+etm_never_passed_count,1,208,1.0,1.0,1.0,0.0,,,6
+etm_never_passed_count,2,123,1.0,1.0,1.0,0.0,,,6
+etm_never_passed_count,3,52,1.0,1.0,1.0,0.0,,,6
+etm_never_passed_count,4,30,1.0,1.0,1.0,0.0,,,6
+etm_never_passed_count,5,3,1.0,1.0,1.0,0.0,,,6
+etm_total_attempts_to_abc,5.0,494,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,4.0,174,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,3.0,115,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,6.0,71,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,2.0,52,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,1.0,30,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,7.0,14,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,0.0,3,1.0,1.0,1.0,0.0,,,9
+etm_total_attempts_to_abc,other,3,1.0,1.0,1.0,0.0,,,9
+first_term_label,Fall 2019,150,1.0,1.0,1.0,0.0,,,9
+first_term_label,Fall 2016,148,1.0,1.0,1.0,0.0,,,9
+first_term_label,Fall 2018,134,1.0,1.0,1.0,0.0,,,9
+first_term_label,Fall 2017,133,1.0,1.0,1.0,0.0,,,9
+first_term_label,Fall 2020,121,1.0,1.0,1.0,0.0,,,9
+first_term_label,Fall 2021,102,1.0,1.0,1.0,0.0,,,9
+first_term_label,other,99,1.0,1.0,1.0,0.0,,,9
+first_term_label,Summer 2019,35,1.0,1.0,1.0,0.0,,,9
+first_term_label,Summer 2020,34,1.0,1.0,1.0,0.0,,,9
+grade_forgiveness_used,0,911,1.0,1.0,1.0,0.0,,,2
+grade_forgiveness_used,1,45,1.0,1.0,1.0,0.0,,,2
+low_gpa_terms_2_5,0,717,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,1,131,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,2,56,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,3,30,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,5,9,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,4,7,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,6,3,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,other,2,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_2_5,10,1,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,0,450,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,1,205,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,2,99,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,3,79,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,4,49,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,5,26,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,6,20,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,other,16,1.0,1.0,1.0,0.0,,,9
+low_gpa_terms_3_0,8,12,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,Not Enrolled,374,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,A,187,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,A-,84,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,B,82,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,B+,62,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,B-,49,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,other,45,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,C,39,1.0,1.0,1.0,0.0,,,9
+math_140__grade_code__1st_fa_or_sp,LD,34,1.0,1.0,1.0,0.0,,,9
+math_140_attempts_to_abc,1.0,597,1.0,1.0,1.0,0.0,,,4
+math_140_attempts_to_abc,missing,312,1.0,1.0,1.0,0.0,,,4
+math_140_attempts_to_abc,2.0,43,1.0,1.0,1.0,0.0,,,4
+math_140_attempts_to_abc,3.0,4,1.0,1.0,1.0,0.0,,,4
+math_140_ever_passed,1,644,1.0,1.0,1.0,0.0,,,2
+math_140_ever_passed,0,312,1.0,1.0,1.0,0.0,,,2
+math_140_outcome,Pass on 1st attempt,597,1.0,1.0,1.0,0.0,,,5
+math_140_outcome,Never enrolled,312,1.0,1.0,1.0,0.0,,,5
+math_140_outcome,Pass on 2nd attempt,32,1.0,1.0,1.0,0.0,,,5
+math_140_outcome,No pass after 1 attempt,11,1.0,1.0,1.0,0.0,,,5
+math_140_outcome,No pass after 2 attempts,4,1.0,1.0,1.0,0.0,,,5
+math_140_pass_by_first_attempt,1,597,1.0,1.0,1.0,0.0,,,2
+math_140_pass_by_first_attempt,0,359,1.0,1.0,1.0,0.0,,,2
+math_140_total_attempts,1,597,1.0,1.0,1.0,0.0,,,4
+math_140_total_attempts,0,312,1.0,1.0,1.0,0.0,,,4
+math_140_total_attempts,2,43,1.0,1.0,1.0,0.0,,,4
+math_140_total_attempts,3,4,1.0,1.0,1.0,0.0,,,4
+math_141__grade_code__1st_fa_or_sp,Not Enrolled,779,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,A,52,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,B,28,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,B+,25,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,A-,19,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,C,16,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,LD,13,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,B-,12,1.0,1.0,1.0,0.0,,,9
+math_141__grade_code__1st_fa_or_sp,other,12,1.0,1.0,1.0,0.0,,,9
+math_141_attempts_to_abc,1.0,734,1.0,1.0,1.0,0.0,,,4
+math_141_attempts_to_abc,missing,166,1.0,1.0,1.0,0.0,,,4
+math_141_attempts_to_abc,2.0,52,1.0,1.0,1.0,0.0,,,4
+math_141_attempts_to_abc,3.0,4,1.0,1.0,1.0,0.0,,,4
+math_141_ever_passed,1,790,1.0,1.0,1.0,0.0,,,2
+math_141_ever_passed,0,166,1.0,1.0,1.0,0.0,,,2
+math_141_outcome,Pass on 1st attempt,734,1.0,1.0,1.0,0.0,,,6
+math_141_outcome,Never enrolled,166,1.0,1.0,1.0,0.0,,,6
+math_141_outcome,Pass on 2nd attempt,30,1.0,1.0,1.0,0.0,,,6
+math_141_outcome,No pass after 1 attempt,22,1.0,1.0,1.0,0.0,,,6
+math_141_outcome,No pass after 2 attempts,2,1.0,1.0,1.0,0.0,,,6
+math_141_outcome,Pass on 3rd attempt,2,1.0,1.0,1.0,0.0,,,6
+math_141_pass_by_first_attempt,1,734,1.0,1.0,1.0,0.0,,,2
+math_141_pass_by_first_attempt,0,222,1.0,1.0,1.0,0.0,,,2
+math_141_total_attempts,1,734,1.0,1.0,1.0,0.0,,,4
+math_141_total_attempts,0,166,1.0,1.0,1.0,0.0,,,4
+math_141_total_attempts,2,52,1.0,1.0,1.0,0.0,,,4
+math_141_total_attempts,3,4,1.0,1.0,1.0,0.0,,,4
+multi_repeat_flag,0,919,1.0,1.0,1.0,0.0,,,2
+multi_repeat_flag,1,37,1.0,1.0,1.0,0.0,,,2
+n_regular_terms,8,535,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,10,172,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,9,138,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,11,35,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,7,31,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,12,14,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,6,12,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,other,12,1.0,1.0,1.0,0.0,,,9
+n_regular_terms,4,7,1.0,1.0,1.0,0.0,,,9
+n_summer_terms,1,284,1.0,1.0,1.0,0.0,,,6
+n_summer_terms,2,263,1.0,1.0,1.0,0.0,,,6
+n_summer_terms,0,192,1.0,1.0,1.0,0.0,,,6
+n_summer_terms,3,165,1.0,1.0,1.0,0.0,,,6
+n_summer_terms,4,48,1.0,1.0,1.0,0.0,,,6
+n_summer_terms,5,4,1.0,1.0,1.0,0.0,,,6
+phys_211__grade_code__1st_fa_or_sp,Not Enrolled,801,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,A,55,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,A-,27,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,B+,24,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,B,19,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,C,9,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,other,8,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,B-,7,1.0,1.0,1.0,0.0,,,9
+phys_211__grade_code__1st_fa_or_sp,C+,6,1.0,1.0,1.0,0.0,,,9
+phys_211_attempts_to_abc,1.0,787,1.0,1.0,1.0,0.0,,,3
+phys_211_attempts_to_abc,missing,143,1.0,1.0,1.0,0.0,,,3
+phys_211_attempts_to_abc,2.0,26,1.0,1.0,1.0,0.0,,,3
+phys_211_ever_passed,1,813,1.0,1.0,1.0,0.0,,,2
+phys_211_ever_passed,0,143,1.0,1.0,1.0,0.0,,,2
+phys_211_outcome,Pass on 1st attempt,787,1.0,1.0,1.0,0.0,,,4
+phys_211_outcome,Never enrolled,143,1.0,1.0,1.0,0.0,,,4
+phys_211_outcome,Pass on 2nd attempt,16,1.0,1.0,1.0,0.0,,,4
+phys_211_outcome,No pass after 1 attempt,10,1.0,1.0,1.0,0.0,,,4
+phys_211_pass_by_first_attempt,1,787,1.0,1.0,1.0,0.0,,,2
+phys_211_pass_by_first_attempt,0,169,1.0,1.0,1.0,0.0,,,2
+phys_211_total_attempts,1,787,1.0,1.0,1.0,0.0,,,3
+phys_211_total_attempts,0,143,1.0,1.0,1.0,0.0,,,3
+phys_211_total_attempts,2,26,1.0,1.0,1.0,0.0,,,3
+sat_verb_grouping,640-690,233,1.0,1.0,1.0,0.0,,,5
+sat_verb_grouping,590-640,228,1.0,1.0,1.0,0.0,,,5
+sat_verb_grouping,<590,222,1.0,1.0,1.0,0.0,,,5
+sat_verb_grouping,≥690,205,1.0,1.0,1.0,0.0,,,5
+sat_verb_grouping,missing,68,1.0,1.0,1.0,0.0,,,5
+terms_with_gpa,10,207,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,9,202,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,8,153,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,11,150,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,12,107,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,13,69,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,other,34,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,14,23,1.0,1.0,1.0,0.0,,,9
+terms_with_gpa,15,11,1.0,1.0,1.0,0.0,,,9
+warnings_per_term,0.0,953,1.0,1.0,1.0,0.0,,,3
+warnings_per_term,0.0833333333333333,2,1.0,1.0,1.0,0.0,,,3
+warnings_per_term,0.0909090909090909,1,1.0,1.0,1.0,0.0,,,3
+with_math_ap,No,613,1.0,1.0,1.0,0.0,,,2
+with_math_ap,Yes,343,1.0,1.0,1.0,0.0,,,2

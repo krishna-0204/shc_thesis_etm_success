@@ -1,0 +1,5 @@
+me_degree_status_bucket,n,rate_graduated_me,rate_any_bachelor,rate_status_known
+me_bs_only,860,1.0,1.0,1.0
+missing_or_blank,280,0.0,0.0,0.0
+me_bs_plus_other_bach,61,1.0,1.0,1.0
+other_bach_no_me,35,0.0,1.0,1.0

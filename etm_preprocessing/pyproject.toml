@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etm-preprocessing"
+version = "0.1.0"
+description = "ETM preprocessing pipeline to build clean_processed_data.csv and engineered features"
+requires-python = ">=3.9"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.23",
+  "openpyxl>=3.1"
+]
+
+[project.scripts]
+etm-preprocess = "etm_preprocessing.cli:main"

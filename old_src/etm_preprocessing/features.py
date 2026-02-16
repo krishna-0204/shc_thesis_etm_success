@@ -240,7 +240,7 @@ def build_attempt_features(df: pd.DataFrame) -> pd.DataFrame:
         o_ay2 = series_or_na(mapping.get("outcome_2nd_ay"), n)
         o_fin = series_or_na(mapping.get("final_outcome"), n)
 
-                # Compute attempts & outcome label using the AY model
+        # Compute attempts & outcome label using the AY model
         attempts_to_abc_list: List[float] = []
         label_text: List[str] = []
         total_attempts_list: List[int] = []
@@ -382,6 +382,53 @@ def engineer_info_features(summary: pd.DataFrame) -> pd.DataFrame:
     regex=True, na=False
     )
     base["graduated_me"] = (positive & ~negative).astype("Int64")
+        # -----------------------------
+    # ME degree status: cleaned + bucketed outcomes
+    # -----------------------------
+    raw_status = base.get("me_bs_degree_status", pd.Series(index=base.index)).astype("string")
+
+    # Clean: strip whitespace, convert blank -> NA, uppercase
+    status_clean = raw_status.str.strip()
+    status_clean = status_clean.replace({"": pd.NA})
+    status_clean_upper = status_clean.str.upper()
+
+    base["me_bs_degree_status_clean"] = status_clean_upper
+    base["me_bs_degree_status_is_missing"] = status_clean_upper.isna().astype("Int64")
+
+    # Bucket to a small set of interpretable groups (based on your 4 observed types)
+    bucket = pd.Series(pd.NA, index=base.index, dtype="string")
+
+    # 1) missing / blank
+    bucket[status_clean_upper.isna()] = "missing_or_blank"
+
+    # For convenience below
+    s = status_clean_upper.fillna("")
+
+    # 2) ME_BS Degree Only
+    # Matches strings like: "ME_BS DEGREE ONLY"
+    bucket[s.str.contains("ME_BS") & s.str.contains("DEGREE") & s.str.contains("ONLY")] = "me_bs_only"
+
+    # 3) No ME_BS Degree But Other Bach. Degree
+    # Matches strings like: "NO ME_BS DEGREE BUT OTHER BACH. DEGREE"
+    bucket[s.str.contains("NO ME_BS") & s.str.contains("OTHER") & s.str.contains("BACH")] = "other_bach_no_me"
+
+    # 4) ME_BS Degree + Other Bach. Degree
+    # We want "ME_BS" + "OTHER" but not the "NO ME_BS" case
+    bucket[
+        s.str.contains("ME_BS") & s.str.contains("OTHER") & ~s.str.contains("NO ME_BS")
+    ] = "me_bs_plus_other_bach"
+
+    # Safety net: anything non-missing not matched above
+    bucket[bucket.isna() & status_clean_upper.notna()] = "other_unrecognized"
+
+    base["me_degree_status_bucket"] = bucket
+
+    # Binary helpers (useful as outcomes)
+    base["has_me_bs_degree"] = bucket.isin(["me_bs_only", "me_bs_plus_other_bach"]).astype("Int64")
+    base["has_any_bachelor_degree"] = bucket.isin(
+        ["me_bs_only", "me_bs_plus_other_bach", "other_bach_no_me"]
+    ).astype("Int64")
+
 
     # Denominators & rates
     if col_enrolled and col_enrolled in base.columns:
